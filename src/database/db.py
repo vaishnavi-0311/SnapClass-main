@@ -84,7 +84,7 @@ def get_teacher_subjects(teacher_id):
 
     
         sub.pop('subjects_students', None)
-        sub.pop('aattendance_logos', None)
+        sub.pop('attendance_logos', None)
 
     return subjects
 
